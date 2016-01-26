@@ -1,0 +1,9 @@
+<open in MS30 tags.dat>
+matchtags ms30.csv <ED folder>
+
+
+
+
+
+convert 1253  ms30.csv ms30output.csv <ED folder>
+convert 1252  ms30.csv ms30output.csv <ED folder>
