@@ -1,0 +1,162 @@
+
+
+---forge strings---
+stringid add needle_rifle
+stringid add h2a_battle_rifle
+edit 1221
+set english needle_rifle "needle rifle"
+set english h2a_battle_rifle "h2a battle rifle"
+exitto tags.dat
+--- forge strings end---
+
+
+---forge menu---
+edit 54e9 
+addto sandboxweapons
+edit sandboxweapons[*]
+setfield object 579c
+setfield name needle_rifle 
+exit
+addto sandboxweapons
+edit sandboxweapons[*]
+setfield object 5726
+setfield name h2a_battle_rifle
+setfield maxallowed 255
+savechanges
+exitto tags.dat
+
+
+setfield maxallowed 255---pelican---
+//DISABLED// duplicate 0
+//DISABLED// import 5726 pelican.vehi
+//DISABLED// import 2849 pelican.jmad
+//DISABLED// import 1a44 pelican_pod_left.vehi
+//DISABLED// import 284b pelican_pod_right.vehi
+//DISABLED// import 284a pelican.phmo
+
+
+//DISABLED// dep add 5726 2836
+//DISABLED// dep add 5726 2835
+//DISABLED// dep add 5726 2837
+//DISABLED// dep add 5726 2838
+//DISABLED// dep add 5726 2839
+//DISABLED// dep add 5726 2803
+//DISABLED// dep add 5726 2b09
+//DISABLED// dep add 5726 2834
+//DISABLED// dep add 2834 2849
+//DISABLED// dep add 2834 1a44
+//DISABLED// dep add 2834 284b
+//DISABLED// dep add 2834 284a
+//DISABLED// dep add 2834 2848
+//DISABLED// dep add 2834 2847
+
+
+
+//DISABLED// --- forge strings ---
+//DISABLED// edit 1221
+//DISABLED// addto strings
+//DISABLED// edit strings[*]
+//DISABLED// setfield stringid pelican
+//DISABLED// exit
+//DISABLED// set english pelican pelican
+//DISABLED// savechanges
+//DISABLED// exit
+//DISABLED// --- forge strings end ---
+
+
+
+//DISABLED// ---vehi---
+//DISABLED// edit 5726
+//DISABLED// edit seats[0]
+//DISABLED// edit cameratracks[0]
+//DISABLED// setfield track 5698
+//DISABLED// setfield enterseatstring device_pelican
+//DISABLED// exit
+//DISABLED// edit seats[12]
+//DISABLED// edit cameratracks[0]
+//DISABLED// setfield track 5698
+//DISABLED// exit
+//DISABLED// removefrom attachments
+//DISABLED// removefrom attachments
+//DISABLED// edit functions[0]
+//DISABLED// setfield importname hover
+//DISABLED// setfield turnoffwith driver_seat_power
+//DISABLED// edit functions[1]
+//DISABLED// setfield importname thrust
+//DISABLED// setfield turnoffwith driver_seat_power
+//DISABLED// savechanges
+//DISABLED// exitto tags.dat
+//DISABLED// --- vehi end--- 
+//DISABLED// 
+//DISABLED// ---mode---
+//DISABLED// edit 2847
+//DISABLED// edit nodes[7]
+//DISABLED// setfield defaultscale 0
+//DISABLED// exit
+//DISABLED// edit nodes[8]
+//DISABLED// setfield defaultscale 0
+//DISABLED// savechanges
+//DISABLED// exitto tags.dat
+//DISABLED// ---mode end---
+//DISABLED// 
+//DISABLED// ---scnrs
+//DISABLED// edit 54e9
+//DISABLED// addto sandboxvehicles
+//DISABLED// edit sandboxvehicles[*]
+//DISABLED// setfield object 5726
+//DISABLED// setfield name pelican
+//DISABLED// setfield maxallowed 255
+//DISABLED// savechanges
+//DISABLED// exitto tags.dat
+//DISABLED// edit 5247
+//DISABLED// addto sandboxvehicles
+//DISABLED// edit sandboxvehicles[*]
+//DISABLED// setfield object 5726
+//DISABLED// setfield name pelican
+//DISABLED// setfield maxallowed 255
+//DISABLED// savechanges
+//DISABLED// exitto tags.dat
+//DISABLED// edit 4f14
+//DISABLED// addto sandboxvehicles
+//DISABLED// edit sandboxvehicles[*]
+//DISABLED// setfield object 5726
+//DISABLED// setfield name pelican
+//DISABLED// setfield maxallowed 255
+//DISABLED// savechanges
+//DISABLED// exitto tags.dat
+//DISABLED// edit 4a08
+//DISABLED// addto sandboxvehicles
+//DISABLED// edit sandboxvehicles[*]
+//DISABLED// setfield object 5726
+//DISABLED// setfield name pelican
+//DISABLED// setfield maxallowed 255
+//DISABLED// savechanges
+//DISABLED// exitto tags.dat
+//DISABLED// edit 3f83
+//DISABLED// addto sandboxvehicles
+//DISABLED// edit sandboxvehicles[*]
+//DISABLED// setfield object 5726
+//DISABLED// setfield name pelican
+//DISABLED// setfield maxallowed 255
+//DISABLED// savechanges
+//DISABLED// exitto tags.dat
+//DISABLED// edit 3a0e
+//DISABLED// addto sandboxvehicles
+//DISABLED// edit sandboxvehicles[*]
+//DISABLED// setfield object 5726
+//DISABLED// setfield name pelican
+//DISABLED// setfield maxallowed 255
+//DISABLED// savechanges
+//DISABLED// exitto tags.dat
+//DISABLED// edit 3488
+//DISABLED// addto sandboxvehicles
+//DISABLED// edit sandboxvehicles[*]
+//DISABLED// setfield object 5726
+//DISABLED// setfield name pelican
+//DISABLED// setfield maxallowed 255
+//DISABLED// savechanges
+//DISABLED// exitto tags.dat
+//DISABLED// --- scnrs end---
+---pelican end--- 
+pause<null
+echo all done!
