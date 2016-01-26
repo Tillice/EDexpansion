@@ -1,4 +1,5 @@
 <open in MS30 tags.dat>
+NOTE FRESH 0.5.0.2 TAGS REQUIRED
 matchtags ms30.csv <ED folder>
 
 
